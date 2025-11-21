@@ -13,7 +13,7 @@ def test_get_employee_info():
         " Employee Name : Alice Smith,\n"
         " Employee ID : E202,\n"
         " Department : HR,\n"
-        " Salary : 60000 "
+        " Salary : 60000"
     )
     # Assertion
     assert get_employee_info(name, emp_id, department, salary) == expected_output
