@@ -9,4 +9,4 @@ def get_employee_info(name, emp_id, department, salary):
     
 # Employee usage (optional)
 if __name__ == "__main__":
-    print(get_employee_info("John Doe", "E101", "IT", 55000))
+    print(get_employee_info("Alice Smith", "E202", "HR", 60000))
